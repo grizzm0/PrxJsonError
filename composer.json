@@ -1,0 +1,19 @@
+{
+    "name": "prx/json-error",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Kristofer Karlsson",
+            "email": "karlsson.kristofer+git@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                         "~5.5",
+        "zendframework/zendframework": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Prx\\JsonError\\": "src/"
+        }
+    }
+}
